@@ -1,0 +1,20 @@
+{
+    "name": "HumidityUtilities",
+    "version": "0.1.0",
+    "description": "A library to handle humidity calculations using A.Buck(1991)",
+    "keywords": "Humidity, VPD",
+    "repository":
+    {
+      "type": "git",
+      "url": "https://github.com/scoo73r/humidityUtilities"
+    },
+    "authors":
+    [
+      {
+        "name": "Scooter Crawford",
+        "email": "scooter@hey.com"
+      }
+    ],
+    "frameworks": "*",
+    "platforms": "*"
+  }
