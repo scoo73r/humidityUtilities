@@ -2,7 +2,7 @@
     "name": "HumidityUtilities",
     "version": "0.1.0",
     "description": "A library to handle humidity calculations using A.Buck(1991)",
-    "keywords": "Humidity, VPD",
+    "keywords": "humidity, vpd",
     "repository":
     {
       "type": "git",
@@ -15,6 +15,7 @@
         "email": "scooter@hey.com"
       }
     ],
+    "license": "MIT",
     "frameworks": "*",
     "platforms": "*"
   }
