@@ -40,10 +40,8 @@ private:
     double convertKelvinToCelsius(double tempatureKelvin);
 
 public:
-    Humidity();
-    ~Humidity();
-
     void setAirPressure(double airPressure);
+    double getAirPressure();
     double getSaturationPressure(double tempatureCelsius);
 
     double getDewPointFromVaporPressure(double vaporPressure, bool aboveFreezing = true);
@@ -71,13 +69,5 @@ public:
     double getAbsoluteHumidityFromRelativeHumidity(double relativeHumidity, double tempatureCelsius);
     double getAbsoluteHumidityFromDewPoint(double dewPoint, double tempatureKelvin);
 };
-
-Humidity::Humidity()
-{
-}
-
-Humidity::~Humidity()
-{
-}
 
 #endif // humid_h

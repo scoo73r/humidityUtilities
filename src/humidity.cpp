@@ -163,6 +163,11 @@ void Humidity::setAirPressure(double airPressure)
     _airPressure = airPressure;
 }
 
+double Humidity::getAirPressure()
+{
+    return _airPressure;
+}
+
 double Humidity::convertCelsiusToKelvin(double tempatureCelsius)
 {
     return tempatureCelsius + 273.15;
